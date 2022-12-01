@@ -1,0 +1,127 @@
+:root{
+    --color: black;
+    --color2: white;    
+    --color3: rgb(251, 55, 55);
+    --color4: rgb(168, 168, 168);
+}
+
+
+.container-content{
+    position: relative;
+}
+
+.container-content .content-card{
+    display: flex;
+    margin: auto;
+    margin-top: 15%;
+    position: relative;
+    height: 90%;
+    box-shadow: 5px 10px 8px #888888;
+    width: 50%;
+    background: var(--color2);
+    border-radius: 30px;
+    animation-name: animasi1;
+    animation-duration: 2s;
+}
+
+.container-content .content-card .image-bg{
+    position: relative;
+}
+
+.container-content .content-card .image-bg img{
+    height: 100%;
+    opacity: 0.6;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.container-content .content-card .header-content{
+    position: relative;
+    margin-left: 15%;
+    margin: 50px;
+    display: block;
+}
+
+.container-content .content-card .header-content h2{
+    color: var(--color);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.container-content .content-card .header-content .username{
+    margin: 20px;
+    border-radius: 20px;
+    height: 15px;
+    width: auto;
+    padding: 10px;
+    animation-name: animasi1;
+    animation-duration: 2s;
+   
+}
+
+.container-content .content-card .header-content .password{
+    margin: 20px;
+    border-radius: 20px;
+    height: 15px;
+    width: auto;
+    padding: 10px;
+}
+
+.container-content .content-card .header-content .email{
+    display: block;
+    margin: 20px;
+    border-radius: 20px;
+    height: 15px;
+    width: auto;
+    padding: 10px;
+}
+
+.container-content .content-card .header-content .button-sub button{
+    margin: 20px;
+    padding: 9px 70px;
+    border-radius: 20px;
+    background-color: var(--color3);
+    border-style: none;
+}
+
+.container-content .content-card .header-content .button-sub button:hover{
+    margin: 20px;
+    padding: 9px 70px;
+    border-radius: 20px;
+    background-color: var(--color4);
+    border-style: none;
+}
+
+.container-content .content-card .header-content .button-sub button a {
+    color: var(--color2);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.container-content .content-card .header-content p {
+    margin: auto;
+    font-size: 12px;
+    margin-left: 70px;
+}
+
+.container-content .content-card .header-content p a{
+    margin: auto;
+    text-decoration: none;
+    color: blue;
+}
+
+@keyframes animasi1 {
+    0%{
+        margin-top: 15%;
+        opacity: 0;
+    }
+
+    25%{      
+        margin-top: 20%;
+        opacity: 0.6
+    }
+}
+

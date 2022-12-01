@@ -1,0 +1,173 @@
+.home-content{
+    margin:0;
+    padding:0;
+    position: relative;
+}
+
+.home-content .nav-link{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 5px 10px 20px #f7f7f7;
+    
+}
+
+
+.home-content .nav-link ul {
+    float: right;
+    margin: 10px;
+    padding: 20px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.home-content .nav-link ul li{
+    display: inline;
+   
+    font-size: 18px;
+    margin: 20px;
+    font-weight:bold;
+}
+
+.home-content .nav-link ul li img{
+    position: absolute;
+    height: 80px;
+    margin-left: -50%;
+    margin-top: -30px;
+    width: auto;
+    float: left;
+}
+
+
+.home-content .nav-link ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.home-content .nav-link ul li a:hover{
+    color: rgb(255, 46, 46);
+    text-decoration: none;
+}
+
+.home-content .home {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.home-content .home .image-small{
+    margin-top: 65%;
+    margin-left: 20%;
+    padding: 10px;
+   
+}
+
+.home-content .home  .image-small img{
+    height: 300px;
+    width: auto;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 0px 100px 0px 100px;
+    animation-name: animasi1;
+    animation-duration: 1s;
+}
+
+.home-content .home .home-fill{
+    position: relative;
+    height: auto;
+    width: 250px;
+    margin-top: -60%;
+    margin-left: 150%;
+  
+}
+
+.home-content .home .home-fill .h2-vol1 {
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    animation-name: animasi1;
+    animation-duration: 2s;
+}
+
+.home-content .home .home-fill p {
+    text-align: left;
+    height: auto;
+    width: 500px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    animation-name: animasi1;
+    animation-duration: 3s;
+}
+
+.home-content .home .home-fill .button1 {
+    text-align: center;
+    border-radius: 15px;
+    padding: 12px 70px;
+    font-size: 16px;
+    font-weight: bold;
+    background: black;
+    color: white;
+    box-shadow: 5px 10px 8px #888888;
+    border-style: none;
+    animation-name: animasi1;
+    animation-duration: 4s;
+}
+
+.home-content .home .home-fill .button1:hover {
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 70px;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(194, 194, 194);
+    color: white;
+    box-shadow: 5px 10px 8px #888888;
+    animation-name: animasi1;
+    animation-duration: 2s;
+}
+
+.home-content .home .about-fill{
+    position: absolute;
+    margin-top: 50%;
+}
+
+.home-content .home .about-fill .image-bg{
+    margin-top: 50px;
+    position: relative;
+   
+}
+
+.home-content .home .about-fill .image-bg img{
+    height: 300px;
+    width: auto;
+    border-radius: 100px 0px 100px 0px;
+    box-shadow: 5px 10px 8px #888888;
+    margin-left: 150%;
+}
+
+.home-content .home .about-fill .h2-vol2{
+    text-align: center;
+    margin-left: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -60%;
+}
+
+@keyframes animasi1 {
+    0%{
+        margin-left: 20%;
+        opacity: 0;
+    }
+
+    25%{      
+        margin-right: 25%;
+        opacity: 0.6
+    }
+}
+
+
+
