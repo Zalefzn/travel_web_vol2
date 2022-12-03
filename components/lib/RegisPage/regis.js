@@ -1,3 +1,3 @@
 function regisBerhasil(){
-    alert('register berhasil');
+    alert('Register Success');
 }
